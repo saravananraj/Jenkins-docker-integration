@@ -11,7 +11,7 @@ public class DockerAppApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Welcome to Docker deploy using Google Jib";
+		return "Welcome To Docker Deploy Using Jenkins Integration";
 	}
 
 	public static void main(String[] args) {
